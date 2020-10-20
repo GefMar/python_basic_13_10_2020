@@ -73,6 +73,6 @@ for key in product_template:
         result.append(itm[1][key])
     products_analytics[key] = result
 
-    # products_analytics[key] = [itm[1][key] for itm in products_list]
+    products_analytics[key] = [itm[1][key] for itm in products_list]
 
 print(products_analytics)
