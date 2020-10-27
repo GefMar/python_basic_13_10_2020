@@ -51,18 +51,20 @@ def log(func):
     return wrap
 
 
-@log
-def some_a(a, b):
-    return a + b
+print(__name__)
 
-
-@log
-def some_b(a, b, c):
-    return (a + b) ** c
-
-
-print(some_a(1, 2))
-print(some_b(1, 2, 3))
+# @log
+# def some_a(a, b):
+#     return a + b
+#
+#
+# @log
+# def some_b(a, b, c):
+#     return (a + b) ** c
+#
+#
+# print(some_a(1, 2))
+# print(some_b(1, 2, 3))
 
 # a = [3, 4, 11, 13, 12, 4, 4, 7, 3, 8, 12, 11, 22, 18, 15, 13, 12]
 # a_result = [4, 12, 4, 4, 8, 12, 22, 18, 12]

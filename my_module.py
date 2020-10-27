@@ -23,3 +23,6 @@ def my_cycle(iter_object):
             idx += 1
         except IndexError:
             idx = 0
+
+
+print(__name__)
