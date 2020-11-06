@@ -24,4 +24,9 @@ class Temperature:
 
 if __name__ == '__main__':
     termo = Temperature()
+    termo.kelvin = 300
+    print(termo.celsius)
+    termo.fahrenheit = 120
+    print(termo.kelvin)
+    print(termo.celsius)
     print(1)
